@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    background-color: black;
+    /*#624aa1;*/
+}
+
+#header-wrapper{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+#myCanvas{
+    background-color: #624aa1;
+    height: 100%;
+    width: 100%;
+}
+
+#header-wrapper h1{
+    font-family: "Vibur", sans-serif;
+
+    position: absolute;
+
+    top: 0;
+
+    display: block;
+
+
+
+    font-size: 8rem;
+
+    color: #fff;
+    text-shadow:
+      0 0 7px rgb(255, 166, 0),
+      0 0 10px rgb(255, 166, 0),
+      0 0 21px rgb(255, 166, 0),
+      0 0 42px rgb(255, 166, 0),
+      0 0 82px rgb(255, 166, 0),
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;
+
+      animation: neonPulsate 5s ease-in-out infinite alternate; 
+}
+
+#headerText1{
+    margin-top: 6rem;
+    margin-left: 40%;
+    margin-right: auto;
+
+
+ 
+}
+
+#headerText2{
+    margin-top: 13rem;
+    margin-left: 45%;
+    margin-right: auto;
+}
+
+
+@keyframes neonPulsate {
+    
+    100% {
+  
+        text-shadow:
+        0 0 7px rgb(255, 166, 0),
+        0 0 10px rgb(255, 166, 0),
+        0 0 21px rgb(255, 166, 0),
+        0 0 42px rgb(255, 166, 0),
+        0 0 82px rgb(255, 166, 0),
+        0 0 92px #f09,
+        0 0 102px #f09,
+        0 0 151px #f09;
+    
+    }
+
+    50%{
+
+        text-shadow:
+        0 0 3px rgb(255, 166, 0),
+        0 0 8px rgb(255, 166, 0),
+        0 0 15px rgb(255, 166, 0),
+        0 0 30px rgb(255, 166, 0),
+        0 0 74px rgb(255, 166, 0),
+        0 0 60px #f09,
+        0 0 72px #f09,
+        0 0 120px #f09;
+
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 1px rgb(255, 166, 0),
+      0 0 1px rgb(255, 166, 0),
+      0 0 1px rgb(255, 166, 0),
+      0 0 15px rgb(255, 166, 0),
+      0 0 40px rgb(255, 166, 0),
+      0 0 20px #f09,
+      0 0 32px #f09,
+      0 0 78px #f09;
+  
+  }
+}
+
+
+
+
+img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
